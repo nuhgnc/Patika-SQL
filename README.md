@@ -1,4 +1,4 @@
-## patika.dev SQL dersi 4. ödev cevapları
+## patika.dev SQL dersi 6. ödev cevapları
 ###### 1. film tablosunda bulunan rental_rate sütunundaki değerlerin ortalaması nedir?
 
     SELECT AVG (rental_rate) FROM film
