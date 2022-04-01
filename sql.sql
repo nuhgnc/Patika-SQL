@@ -1,4 +1,4 @@
---SELECT AVG (rental_rate) FROM film
---SELECT COUNT (*) FROM film WHERE title LIKE 'C%'
---SELECT MAX(length) from film WHERE rental_rate = 0.99
---SELECT COUNT (DISTINCT replacement_cost) FROM film WHERE length > 150
+--SELECT rating FROM film GROUP BY rating
+--SELECT replacement_cost , count(*) FROM film GROUP BY replacement_cost HAVING  count(*) > 50
+--SELECT store_id , count (first_name) from customer GROUP BY store_id
+--SELECT country_id , count(city) from city GROUP BY country_id ORDER BY COUNT (city) DESC LIMIT 1
