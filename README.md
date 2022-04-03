@@ -6,7 +6,7 @@
 	name varchar(50),
 	birthday date,
 	email varchar(100)
-)
+	)
     
 ###### 2. Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
 
