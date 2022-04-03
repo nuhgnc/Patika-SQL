@@ -1,4 +1,0 @@
---SELECT rating FROM film GROUP BY rating
---SELECT replacement_cost , count(*) FROM film GROUP BY replacement_cost HAVING  count(*) > 50
---SELECT store_id , count (first_name) from customer GROUP BY store_id
---SELECT country_id , count(city) from city GROUP BY country_id ORDER BY COUNT (city) DESC LIMIT 1
